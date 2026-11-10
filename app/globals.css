@@ -2065,6 +2065,9 @@ h2 span {
 .hero-product-scene img {
   width: 100%;
   height: auto;
+  aspect-ratio: 1280 / 1020;
+  object-fit: cover;
+  object-position: center bottom;
   display: block;
 }
 .highlight-pair {

@@ -104,17 +104,13 @@ export default function Home() {
             </p>
           </div>
           <div className="hero-product-scene">
-            <picture>
-              <source
-                media="(max-width: 600px)"
-                srcSet="/devices/hero-composed-mobile.avif"
-              />
-              <img
-                src="/devices/hero-composed.avif"
-                alt="An upright iPad and iPhone arranged together, with replaceable screenshot placeholders."
-                fetchPriority="high"
-              />
-            </picture>
+            <img
+              src="/devices/hero-cheese.jpg"
+              alt="An iPad with Apple Pencil, an upright iPhone, and a foldable device in front."
+              width={1280}
+              height={1280}
+              fetchPriority="high"
+            />
           </div>
         </section>
         <section className="world-section" id="anywhere" data-scroll-scene>
