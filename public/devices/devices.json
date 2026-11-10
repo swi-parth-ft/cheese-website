@@ -1,0 +1,83 @@
+{
+  "ipad" : {
+    "height" : 1500,
+    "screenHeight" : 1350,
+    "screenNode" : "duUosXawNfgWFdH",
+    "screenQuad" : [
+      [
+        267.7210693359375,
+        204.08447265625
+      ],
+      [
+        1665.93212890625,
+        239.0469970703125
+      ],
+      [
+        1639.36865234375,
+        1296.0636444091797
+      ],
+      [
+        241.15771484375,
+        1261.1010894775391
+      ]
+    ],
+    "screenQuadOrder" : "top-left, top-right, bottom-right, bottom-left in image pixel coordinates",
+    "screenWidth" : 1800,
+    "source" : "iOSClient\/MacModels\/ipad-air-m3-blue-magic-keyboard.usdz",
+    "width" : 1900
+  },
+  "iphone" : {
+    "height" : 2200,
+    "screenHeight" : 2177,
+    "screenNode" : "WOKooOMERCnmgGn",
+    "screenQuad" : [
+      [
+        85.625213623046875,
+        178.210205078125
+      ],
+      [
+        930.5672607421875,
+        157.0821533203125
+      ],
+      [
+        983.99615478515625,
+        2025.9549865722656
+      ],
+      [
+        139.05418395996094,
+        2047.0830230712891
+      ]
+    ],
+    "screenQuadOrder" : "top-left, top-right, bottom-right, bottom-left in image pixel coordinates",
+    "screenWidth" : 1000,
+    "source" : "iOSClient\/MacModels\/Onboarding\/iphone17pro-deep-blue.usdz",
+    "width" : 1100
+  },
+  "macbook" : {
+    "height" : 1600,
+    "screenHeight" : 1168,
+    "screenNode" : "NxzTSkyjLSzGBKS",
+    "screenQuad" : [
+      [
+        388.49996948242188,
+        198.154052734375
+      ],
+      [
+        1997.340087890625,
+        213.9049072265625
+      ],
+      [
+        1954.1170654296875,
+        1227.101318359375
+      ],
+      [
+        345.27694702148438,
+        1211.350341796875
+      ]
+    ],
+    "screenQuadOrder" : "top-left, top-right, bottom-right, bottom-left in image pixel coordinates",
+    "screenWidth" : 1800,
+    "source" : "iOSClient\/MacModels\/Onboarding\/macbook-pro-14-space-black.usdz",
+    "width" : 2200
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "ipad" : {
+    "height" : 1700,
+    "screenHeight" : 1350,
+    "screenNode" : "duUosXawNfgWFdH",
+    "screenQuad" : [
+      [
+        534.368408203125,
+        227.5528564453125
+      ],
+      [
+        1591.62939453125,
+        253.9898681640625
+      ],
+      [
+        1597.7860107421875,
+        1082.827880859375
+      ],
+      [
+        540.52520751953125,
+        1056.390869140625
+      ]
+    ],
+    "screenQuadOrder" : "top-left, top-right, bottom-right, bottom-left in image pixel coordinates",
+    "screenWidth" : 1800,
+    "source" : "Bzls\/3DiPhone\/ipad-air-m3-blue-magic-keyboard.usdz",
+    "width" : 2200
+  },
+  "iphone" : {
+    "height" : 2200,
+    "screenHeight" : 2177,
+    "screenNode" : "LwufNuEhfFzolNp",
+    "screenQuad" : [
+      [
+        161.39076232910156,
+        279.314208984375
+      ],
+      [
+        914.01287841796875,
+        229.189453125
+      ],
+      [
+        1021.6842651367188,
+        1921.1253051757812
+      ],
+      [
+        269.06219482421875,
+        1971.2500152587891
+      ]
+    ],
+    "screenQuadOrder" : "top-left, top-right, bottom-right, bottom-left in image pixel coordinates",
+    "screenWidth" : 1000,
+    "source" : "Bzls\/3DiPhone\/iphone-air-skyblue-ios18-90DC3930F5C7BB24.usdz",
+    "width" : 1200
+  }
+}

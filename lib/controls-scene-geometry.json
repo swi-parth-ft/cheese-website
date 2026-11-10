@@ -1,0 +1,122 @@
+{
+  "controls" : {
+    "accessory" : "Original BZLS accessory geometry retained in full",
+    "background" : "#ffffff",
+    "cameraPosition" : [
+      0.35664168000221252,
+      0.47026291489601135,
+      0.78082472085952759
+    ],
+    "height" : 1500,
+    "minimumHardwareMargin" : 0.085010766983032227,
+    "sources" : [
+      {
+        "screenNode" : "duUosXawNfgWFdH",
+        "source" : "Bzls\/3DiPhone\/ipad-air-m3-blue-magic-keyboard.usdz"
+      },
+      {
+        "screenNode" : "LwufNuEhfFzolNp",
+        "source" : "Bzls\/3DiPhone\/iphone-air-skyblue-ios18-90DC3930F5C7BB24.usdz"
+      }
+    ],
+    "width" : 1800
+  },
+  "hero" : {
+    "accessory" : "Original BZLS accessory geometry retained in full",
+    "background" : "#ffffff",
+    "cameraPosition" : [
+      -0.0022042612545192242,
+      0.15582078695297241,
+      0.59307402372360229
+    ],
+    "height" : 1400,
+    "minimumHardwareMargin" : 0.084961742162704468,
+    "sources" : [
+      {
+        "screenNode" : "duUosXawNfgWFdH",
+        "source" : "Bzls\/3DiPhone\/ipad-air-m3-blue-apple-pencil.usdz"
+      },
+      {
+        "screenNode" : "LwufNuEhfFzolNp",
+        "source" : "Bzls\/3DiPhone\/iphone-air-skyblue-ios18-90DC3930F5C7BB24.usdz"
+      }
+    ],
+    "width" : 2400
+  },
+  "hero-mobile" : {
+    "accessory" : "Original BZLS accessory geometry retained in full",
+    "background" : "#ffffff",
+    "cameraPosition" : [
+      -0.0090601071715354919,
+      0.15970328450202942,
+      0.74484473466873169
+    ],
+    "height" : 1500,
+    "minimumHardwareMargin" : 0.084984362125396729,
+    "sources" : [
+      {
+        "screenNode" : "duUosXawNfgWFdH",
+        "source" : "Bzls\/3DiPhone\/ipad-air-m3-blue-apple-pencil.usdz"
+      },
+      {
+        "screenNode" : "LwufNuEhfFzolNp",
+        "source" : "Bzls\/3DiPhone\/iphone-air-skyblue-ios18-90DC3930F5C7BB24.usdz"
+      }
+    ],
+    "width" : 1500
+  },
+  "ipad" : {
+    "accessory" : "Original BZLS accessory geometry retained in full",
+    "background" : "#ffffff",
+    "cameraPosition" : [
+      0.28397226333618164,
+      0.42533913254737854,
+      0.67521238327026367
+    ],
+    "height" : 1500,
+    "minimumHardwareMargin" : 0.08499261736869812,
+    "sources" : [
+      {
+        "screenNode" : "duUosXawNfgWFdH",
+        "source" : "Bzls\/3DiPhone\/ipad-air-m3-blue-magic-keyboard.usdz"
+      }
+    ],
+    "width" : 1800
+  },
+  "iphone" : {
+    "accessory" : "Original BZLS accessory geometry retained in full",
+    "background" : "#ffffff",
+    "cameraPosition" : [
+      0.00021476201072800905,
+      0.10118988156318665,
+      0.3558514416217804
+    ],
+    "height" : 1500,
+    "minimumHardwareMargin" : 0.084989696741104126,
+    "sources" : [
+      {
+        "screenNode" : "LwufNuEhfFzolNp",
+        "source" : "Bzls\/3DiPhone\/iphone-air-skyblue-ios18-90DC3930F5C7BB24.usdz"
+      }
+    ],
+    "width" : 1800
+  },
+  "macbook" : {
+    "accessory" : "Original BZLS accessory geometry retained in full",
+    "background" : "#ffffff",
+    "cameraPosition" : [
+      0.28010687232017517,
+      0.43216413259506226,
+      0.69680505990982056
+    ],
+    "height" : 1500,
+    "minimumHardwareMargin" : 0.084993749856948853,
+    "sources" : [
+      {
+        "screenNode" : "NxzTSkyjLSzGBKS",
+        "source" : "Bzls\/3DiPhone\/macbook-pro-14-space-black.usdz"
+      }
+    ],
+    "width" : 1800
+  }
+}

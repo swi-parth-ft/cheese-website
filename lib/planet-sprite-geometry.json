@@ -1,0 +1,76 @@
+{
+  "iphone" : {
+    "cameraPosition" : [
+      0,
+      0,
+      3.6000000000000001
+    ],
+    "height" : 879,
+    "normalizationIncluded" : true,
+    "normalizationMaximumDimension" : 0.64999997615814209,
+    "planeHeight" : 0.73441134768529204,
+    "planeOffsetX" : -0.0008355077903131877,
+    "planeOffsetY" : -0.0012532616854697815,
+    "planeWidth" : 0.42945100422097848,
+    "posedWorldBounds" : [
+      [
+        -0.18553891777992249,
+        -0.33435040712356567,
+        -0.052904017269611359
+      ],
+      [
+        0.18058767914772034,
+        0.33435046672821045,
+        0.072223871946334839
+      ]
+    ],
+    "roll" : -0.11999999731779099,
+    "source" : "iOSClient\/MacModels\/Onboarding\/iphone17pro-deep-blue.usdz",
+    "verticalFieldOfView" : 36,
+    "visiblePixelBounds" : [
+      37,
+      37,
+      440,
+      805
+    ],
+    "width" : 514,
+    "yaw" : -0.25
+  },
+  "macbook" : {
+    "cameraPosition" : [
+      0,
+      0,
+      3.6000000000000001
+    ],
+    "height" : 923,
+    "normalizationIncluded" : true,
+    "normalizationMaximumDimension" : 1.1299999952316284,
+    "planeHeight" : 0.89970263886891766,
+    "planeOffsetX" : -0.065796238487163539,
+    "planeOffsetY" : -0.053124370334080184,
+    "planeWidth" : 1.4514162830723927,
+    "posedWorldBounds" : [
+      [
+        -0.66757798194885254,
+        -0.37298774719238281,
+        -0.64347219467163086
+      ],
+      [
+        0.66770273447036743,
+        0.37298771739006042,
+        0.64291417598724365
+      ]
+    ],
+    "roll" : 0,
+    "source" : "iOSClient\/MacModels\/Onboarding\/macbook-neo-13-citrus.usdz",
+    "verticalFieldOfView" : 36,
+    "visiblePixelBounds" : [
+      62,
+      62,
+      1365,
+      799
+    ],
+    "width" : 1489,
+    "yaw" : -0.2199999988079071
+  }
+}
