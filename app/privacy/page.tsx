@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SiteHeader, SiteFooter } from "../../components/site-chrome";
 
 export const metadata: Metadata = {
-  title: "Privacy — Cheese",
+  title: "Privacy Policy — Cheese",
   description:
     "How Cheese handles encrypted connections, remote discovery, permissions, files, clipboard contents, and updates.",
 };
@@ -17,11 +17,7 @@ export default function PrivacyPage() {
             ← Back to Cheese
           </a>
           <p className="eyebrow">Your devices. Your business.</p>
-          <h1>
-            A clear picture
-            <br />
-            of your privacy.
-          </h1>
+          <h1>Privacy Policy</h1>
           <p>
             How Cheese handles your connections and the information you choose
             to share.

@@ -7,7 +7,6 @@ import {
   Command,
   MousePointer2,
   Volume2,
-  Fingerprint,
   ArrowDown,
 } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../components/site-chrome";
@@ -213,7 +212,11 @@ export default function Home() {
           </div>
         </section>
         <section className="trust-section section-shell" data-reveal>
-          <Fingerprint size={65} strokeWidth={1.25} />
+          <div className="trust-symbols" aria-label="Touch ID, Face ID, and passcode">
+            <img src="/symbols/touchid.png" alt="Touch ID" width={80} height={80} />
+            <img src="/symbols/faceid.png" alt="Face ID" width={80} height={80} />
+            <img src="/symbols/lock.rectangle.png" alt="Passcode" width={80} height={80} />
+          </div>
           <h2>
             Yours.
             <br />

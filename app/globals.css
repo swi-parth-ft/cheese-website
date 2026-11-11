@@ -2255,3 +2255,133 @@ h2 span {
     aspect-ratio: 0.64;
   }
 }
+
+/* Give the artwork the full viewport height beside the copy. */
+.hero {
+  height: calc(100svh - 54px);
+  min-height: 540px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.4fr);
+  grid-template-rows: 1fr auto auto 1fr;
+  padding: 24px max(24px, calc((100vw - 1440px) / 2));
+  text-align: left;
+  overflow: hidden;
+}
+.hero-copy {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
+  padding-left: clamp(0px, 3vw, 48px);
+  position: relative;
+  z-index: 1;
+}
+.hero h1 { font-size: clamp(44px, 4.8vw, 72px); }
+.hero-subtitle { font-size: 21px; margin: 22px 0 0; max-width: 400px; }
+.hero-actions {
+  grid-column: 1;
+  grid-row: 3;
+  padding-left: clamp(0px, 3vw, 48px);
+  margin-top: 28px;
+  position: relative;
+  z-index: 1;
+}
+.hero-product-scene {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.hero-product-scene img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+}
+@media (max-width: 700px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    padding: 20px 0 8px;
+    text-align: center;
+  }
+  .hero-copy { padding: 0 24px; }
+  .hero-name { margin-bottom: 6px; font-size: 20px; }
+  .hero h1 { font-size: clamp(34px, 8vw, 48px); }
+  .hero-subtitle { font-size: 17px; margin: 12px auto 0; max-width: 340px; }
+  .hero-actions { padding: 0; margin-top: 16px; }
+  .hero-availability { margin-top: 8px; }
+  .hero-product-scene { flex: 1; width: 100%; min-height: 0; }
+}
+
+@font-face {
+  font-family: "Cheese Hello";
+  src: url("/fonts/MacintoshSkeletalFilled.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+h1, h2 {
+  font-family: "Cheese Hello", var(--font);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.hero h1 { line-height: 1.15; letter-spacing: 0; }
+
+/* Let the planet continue beneath the caption, fading into the section. */
+.hardware-world {
+  overflow: visible;
+}
+.hardware-world .hardware-canvas {
+  bottom: -200px;
+  mask-image: linear-gradient(to bottom, #000 0%, #000 65%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 65%, transparent 100%);
+}
+.world-bottom {
+  padding-top: 36px;
+  padding-bottom: 72px;
+}
+.world-bottom::before {
+  content: "";
+  position: absolute;
+  inset: -40px calc((min(1080px, 100vw - 96px) - 100vw) / 2) -1px;
+  z-index: -1;
+  background: linear-gradient(transparent, #080b11cc 65%, #080b11);
+  backdrop-filter: blur(12px);
+  mask-image: linear-gradient(transparent, #000 70%);
+  pointer-events: none;
+}
+@media (max-width: 600px) {
+  .hardware-world .hardware-canvas { bottom: -160px; }
+  .world-bottom { padding-top: 24px; padding-bottom: 36px; }
+  .world-bottom::before { inset-inline: -24px; }
+}
+
+/* Script joins require natural tracking and the font's actual regular weight.
+   Override the older section-specific sans-serif heading rules. */
+h1, h2 {
+  letter-spacing: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  font-synthesis: none;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+}
+
+.trust-symbols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 25px;
+}
+.trust-symbols img { width: 80px; height: 80px; object-fit: contain; }
+@media (max-width: 600px) {
+  .trust-symbols { gap: 16px; margin-bottom: 22px; }
+  .trust-symbols img { width: 64px; height: 64px; }
+}

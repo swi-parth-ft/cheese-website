@@ -69,7 +69,7 @@ export function SiteFooter() {
           </a>
           <nav aria-label="Footer">
             <a href="/support">Support</a>
-            <a href="/privacy">Privacy</a>
+            <a href="/privacy">Privacy Policy</a>
             <a
               href="https://github.com/swi-parth-ft/cheese-releases/releases"
               target="_blank"

@@ -59,8 +59,8 @@ function ControlsPair() {
   return (
     <img
       className="controls-composed"
-      src="/devices/controls-composed.avif"
-      alt="An iPad on its Magic Keyboard, with an iPhone lying in front as a controller. Both rest on the same surface. Screens are placeholders."
+      src="/devices/controls-landscape.png"
+      alt="An iPad with Apple Pencil and a landscape iPhone lying in front as a trackpad controller. Screens are placeholders."
       loading="lazy"
     />
   );

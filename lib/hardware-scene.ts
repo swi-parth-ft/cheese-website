@@ -229,7 +229,7 @@ function planetFrame(
     arrival = reveal * reveal * (3 - 2 * reveal);
   const marsDepth = far * 2 * (1 - arrival) + foregroundDistance * arrival;
   const marsHalfHeight = marsDepth * tangent;
-  const verticalPosition = -1.6 * (1 - arrival) + (wide ? -1 : -0.26) * arrival;
+  const verticalPosition = -1.6 * (1 - arrival) + -0.7 * arrival;
   const marsPosition = camera
     .clone()
     .add(
@@ -303,6 +303,7 @@ export async function mountHardwareScene(
   marsGroup.add(marsSurface, phone);
   mac.position.set(0, 1.12, 0);
   phone.position.set(0, 1.0, 0);
+  phone.scale.setScalar(1.35);
   scene.add(earthGroup, marsGroup);
   renderer.domElement.setAttribute("aria-hidden", "true");
   host.appendChild(renderer.domElement);
